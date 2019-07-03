@@ -1,0 +1,89 @@
+.ba-container {
+  height: 100%;
+  display: block;
+  position: relative;
+}
+
+.ba-pricing {
+  width: 1070px;
+  height: 691px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.ba-pricing__col {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.ba-price__body {
+  width: 140px;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+.ba-price__body--center {
+  width: 180px;
+  margin-top: 45px;
+}
+
+.ba-button,
+.footer__text {
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ba-button {
+  bottom: -27px;
+}
+
+.ba-button--center {
+  top: -27px;
+}
+
+.svg-tooltip{
+  display: inline-block;
+  width: 101px;
+  height: 30px;
+  top: 30px;
+  right: -90px;
+  background: url("../images/popular.png") no-repeat;
+}
+
+.svg__bubbles{
+  display: inline-block;
+  width: 59px;
+  height: 56px;
+  top:8px;
+  right: 9px;
+  background: url("../images/bubble.png") no-repeat;
+}
+
+.svg-tooltip__text,
+.circle__text {
+  visibility: hidden;
+}
+
+.ba-price__rate {
+  display: inline-block;
+  position: relative;
+}
+
+.ba-price__rate:before {
+  position: absolute;
+  top: 0;
+  left: -15px;
+}
+
+.ba-price__rate:after {
+  position: absolute;
+  bottom: 0;
+}
